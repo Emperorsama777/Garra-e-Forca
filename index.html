@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Academia Never Give Up</title>
+  <style>
+    @media (max-width: 768px) {
+  .servicos, .planos {
+    flex-direction: column;
+  }
+}
+  .logo {
+  width: 1500px;   /* aumenta a largura */
+  height: 600px;   /* mantém a proporção da altura */
+  display: block;
+  margin: 0 auto; /* centraliza horizontalmente */
+  padding: 20px 0;
+}
+
+
+
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    /* Cabeçalho com imagem de fundo */
+    header.topo {
+  background-image: url('https://sdmntprnorthcentralus.oaiusercontent.com/files/00000000-6f24-622f-a19d-2bdcb97a37a9/raw?se=2025-06-11T20%3A21%3A05Z&sp=r&sv=2024-08-04&sr=b&scid=0087162b-9384-56ed-be7b-8b5710895e42&skoid=864daabb-d06a-46b3-a747-d35075313a83&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-11T11%3A07%3A34Z&ske=2025-06-12T11%3A07%3A34Z&sks=b&skv=2024-08-04&sig=fE0ZOqBS4GbwhT6lntmzOjoDyOfo9%2BscGF4ehCQVbPo%3D'); /* se tiver um fundo */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+    header .overlay {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 30px;
+      width: 100%;
+    }
+
+    nav {
+      background-color: #444;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      display: inline-block;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #666;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    .servicos, .planos {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      flex: 1;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .galeria {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .galeria img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+
+    footer {
+      background-color: #222;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .servicos, .planos {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="topo">
+  <div class="overlay">
+    <img src="c:\Users\Home\Documents\Academia\Imagens\academia2.png" alt="Logo Academia Never Give Up" class="logo">
+  </div>
+</header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#planos">Planos</a>
+    <a href="#galeria">Galeria</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Na Academia Never Give Up, oferecemos o melhor em estrutura, equipamentos modernos e profissionais qualificados para ajudar você a alcançar seus objetivos.</p>
+  </section>
+
+  <section id="servicos">
+    <h2>Serviços</h2>
+    <div class="servicos">
+      <div class="card">
+        <h3>Musculação</h3>
+        <p>Aparelhos de especializados e suporte de instrutores experientes.</p>
+      </div>
+      <div class="card">
+        <h3>Aulas em Grupo</h3>
+        <p>Spinning, Zumba, Yoga e muito mais para manter a motivação.</p>
+      </div>
+      <div class="card">
+        <h3>Personal Trainer</h3>
+        <p>Treinamento individualizado para resultados rápidos e seguros.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="planos">
+    <h2>Planos</h2>
+    <div class="planos">
+      <div class="card">
+        <h3>Plano Mensal</h3>
+        <p>R$ 60,00/mês</p>
+      </div>
+      <div class="card">
+        <h3>Plano Trimestral</h3>
+        <p>R$ 163,99 (3 meses)</p>
+      </div>
+      <div class="card">
+        <h3>Plano Anual</h3>
+        <p>R$ 545,99 (12 meses)</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="galeria">
+    <h2>Galeria</h2>
+    <div class="galeria">
+      <img src="https://via.placeholder.com/300x200?text=Academia+1" alt="Foto academia 1">
+      <img src="https://via.placeholder.com/300x200?text=Academia+2" alt="Foto academia 2">
+      <img src="https://via.placeholder.com/300x200?text=Academia+3" alt="Foto academia 3">
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Email: contato@fit.com.br</p>
+    <p>Telefone: (81) 99999-9999</p>
+    <p>Endereço: Rua Cento e Quarenta e Nove, 125 - Caetés I, Abreu e Lima, PE</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Academia Never Give Up. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
