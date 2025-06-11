@@ -4,21 +4,25 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Academia Never Give Up</title>
-  <style>
-    @media (max-width: 768px) {
-  .servicos, .planos {
-    flex-direction: column;
+  <style>.logo {
+    width: 100%;
+    max-width: 1300px;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0;
   }
-}
-  .logo {
-  width: 1300px;   /* aumenta a largura */
-  height: 600px;   /* mantém a proporção da altura */
-  display: block;
-  margin: 0 auto; /* centraliza horizontalmente */
-  padding: 20px 0;
-}
 
+  @media (max-width: 768px) {
+    .logo {
+      max-width: 90%;
+    }
 
+    .servicos, .planos {
+      flex-direction: column;
+    }
+  }
+  
 
 
     body {
